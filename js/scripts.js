@@ -17,10 +17,14 @@ function divide (number1, number2) {
 const number1 = parseInt(prompt("Enter a number:"));
 const number2 = parseInt(prompt("Enter another number:"));
 
-window.alert("The addition of your numbers equals: " + add(number1, number2) + ". " +
-   "The subtraction of your numbers equals: " + subtract(number1, number2) + ". " +
-   "The multiplication of your numbers equals: " + multiply(number1, number2) + ". " +
-   "The division of your numbers equals: " + divide(number1, number2));
+window.alert("The sum of " + number1 + " and " + number2 + " equals: " 
+  + add(number1, number2) 
+  + ". " + "The subtraction of " + number1 + " and " + number2 + " equals: "
+  + subtract(number1, number2)
+  + ". " + "The multiplication of " + number1 + " and " + number2 + " equals: " 
+  + multiply(number1, number2)
+  + ". " + "The division of " + number1 + " and " + number2 + " equals: "
+  + divide(number1, number2));
   
 
   
